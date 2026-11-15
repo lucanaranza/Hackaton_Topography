@@ -1,0 +1,259 @@
+{
+  "source": "C:\\Users\\cater\\OneDrive\\Desktop\\universit\u00e0\\EXTRA\\Hackaton NASA\\Hackaton_Topography\\dati_siti_topografia\\Sito_20v2\\Site20v2_final_adj_5mpp_surf.tif",
+  "source_documentation": "https://pgda.gsfc.nasa.gov/products/78",
+  "rasterio_version": "1.5.2",
+  "shape": [
+    5200,
+    5200
+  ],
+  "resolution_m": [
+    5.0,
+    5.0
+  ],
+  "bounds_projected_m": {
+    "left": 60000.0,
+    "bottom": 105000.0,
+    "right": 86000.0,
+    "top": 131000.0
+  },
+  "crs_wkt": "PROJCS[\"unknown\",GEOGCS[\"unknown\",DATUM[\"unknown\",SPHEROID[\"unknown\",1737400,0]],PRIMEM[\"Reference meridian\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Polar_Stereographic\"],PARAMETER[\"latitude_of_origin\",-90],PARAMETER[\"central_meridian\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1],AXIS[\"Easting\",NORTH],AXIS[\"Northing\",NORTH]]",
+  "lunar_radius_m": 1737400,
+  "center": {
+    "x_m": 73000.0,
+    "y_m": 118000.0,
+    "longitude_deg": 31.7427611534189,
+    "latitude_deg": -85.42657728044317
+  },
+  "extent_projected_km2": 676.0,
+  "valid_elevation_projected_km2": 676.0,
+  "missing_elevation_pct": 0.0,
+  "valid_slope_projected_km2": 675.4801,
+  "elevation_m": {
+    "count": 27040000,
+    "min": 1330.173583984375,
+    "max": 6787.7041015625,
+    "mean": 5169.179340337467,
+    "std": 1122.6153184818186,
+    "p5": 2497.7666015625,
+    "p50": 5498.390625,
+    "p95": 6336.869140625
+  },
+  "slope_deg": {
+    "count": 27019204,
+    "min": 0.005595290567725897,
+    "max": 58.5216178894043,
+    "mean": 13.108511803740548,
+    "std": 6.249087159400215,
+    "p5": 3.7718493938446045,
+    "p50": 12.440513610839844,
+    "p95": 23.85589027404785
+  },
+  "slope_filters": [
+    {
+      "max_slope_deg": 5.0,
+      "area_projected_km2": 60.0356,
+      "pct_of_valid_slope": 8.887841403469917
+    },
+    {
+      "max_slope_deg": 10.0,
+      "area_projected_km2": 239.27045,
+      "pct_of_valid_slope": 35.42227964968916
+    },
+    {
+      "max_slope_deg": 15.0,
+      "area_projected_km2": 429.069125,
+      "pct_of_valid_slope": 63.52061666953623
+    },
+    {
+      "max_slope_deg": 20.0,
+      "area_projected_km2": 562.530075,
+      "pct_of_valid_slope": 83.27855624466213
+    }
+  ],
+  "tile_size_actual_m": [
+    100.0,
+    100.0
+  ],
+  "selected_max_slope_deg": 10.0,
+  "top_cells_by_slope_only": [
+    {
+      "row_start": 120,
+      "col_start": 3760,
+      "x_m": 78850.0,
+      "y_m": 130350.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5069.644636230469,
+      "relief_m": 2.45068359375,
+      "slope_mean_deg": 1.3675873245298862,
+      "slope_max_deg": 3.0117363929748535,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 31.170157186515333,
+      "latitude_deg": -84.97925910791571
+    },
+    {
+      "row_start": 3000,
+      "col_start": 3860,
+      "x_m": 79350.0,
+      "y_m": 115950.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5708.603963623047,
+      "relief_m": 2.22216796875,
+      "slope_mean_deg": 1.2059694937989116,
+      "slope_max_deg": 3.1444003582000732,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 34.38565874530181,
+      "latitude_deg": -85.36906219706708
+    },
+    {
+      "row_start": 2540,
+      "col_start": 2240,
+      "x_m": 71250.0,
+      "y_m": 118250.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 6306.895747070313,
+      "relief_m": 2.55908203125,
+      "slope_mean_deg": 1.3924173935037105,
+      "slope_max_deg": 3.2529594898223877,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 31.07051873058511,
+      "latitude_deg": -85.44957845924682
+    },
+    {
+      "row_start": 1660,
+      "col_start": 4280,
+      "x_m": 81450.0,
+      "y_m": 122650.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 6054.188383789063,
+      "relief_m": 1.6796875,
+      "slope_mean_deg": 1.111780905444175,
+      "slope_max_deg": 3.275897264480591,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 33.58753209708174,
+      "latitude_deg": -85.1475177116721
+    },
+    {
+      "row_start": 40,
+      "col_start": 1140,
+      "x_m": 65750.0,
+      "y_m": 130750.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 4962.9703125,
+      "relief_m": 1.8818359375,
+      "slope_mean_deg": 1.2501517830602824,
+      "slope_max_deg": 3.419069528579712,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 26.69636289411091,
+      "latitude_deg": -85.17650307462358
+    },
+    {
+      "row_start": 4320,
+      "col_start": 4180,
+      "x_m": 80950.0,
+      "y_m": 109350.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5594.72921875,
+      "relief_m": 4.666015625,
+      "slope_mean_deg": 2.5271765300631523,
+      "slope_max_deg": 3.4955601692199707,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 36.51193528690245,
+      "latitude_deg": -85.51556169233888
+    },
+    {
+      "row_start": 3660,
+      "col_start": 4220,
+      "x_m": 81150.0,
+      "y_m": 112650.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5781.883673095703,
+      "relief_m": 2.74951171875,
+      "slope_mean_deg": 1.408771271109581,
+      "slope_max_deg": 3.499439001083374,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 35.76795348557812,
+      "latitude_deg": -85.42392691559625
+    },
+    {
+      "row_start": 120,
+      "col_start": 3220,
+      "x_m": 76150.0,
+      "y_m": 130350.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5244.962592773438,
+      "relief_m": 3.4697265625,
+      "slope_mean_deg": 2.0486774045974014,
+      "slope_max_deg": 3.619088649749756,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 30.293318456488826,
+      "latitude_deg": -85.02467522546063
+    },
+    {
+      "row_start": 60,
+      "col_start": 3800,
+      "x_m": 79050.0,
+      "y_m": 130650.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5071.056346435547,
+      "relief_m": 3.55078125,
+      "slope_mean_deg": 1.7512443887069822,
+      "slope_max_deg": 3.6336002349853516,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 31.176105146953788,
+      "latitude_deg": -84.96740307568567
+    },
+    {
+      "row_start": 1400,
+      "col_start": 3920,
+      "x_m": 79650.0,
+      "y_m": 123950.0,
+      "width_m": 100.0,
+      "height_m": 100.0,
+      "elevation_coverage_pct": 100.0,
+      "slope_coverage_pct": 100.0,
+      "elevation_mean_m": 5815.641264648438,
+      "relief_m": 2.93896484375,
+      "slope_mean_deg": 1.5000470525212586,
+      "slope_max_deg": 3.6825368404388428,
+      "passes_slope_filter_pct": 100.0,
+      "longitude_deg": 32.72471178462052,
+      "latitude_deg": -85.14409806943418
+    }
+  ],
+  "limitations": [
+    "Elevation units in meters from PGDA product documentation; vertical datum must be verified before combining DEMs.",
+    "Slopes use central differences over a 10 m baseline at 5 m/pixel; grid distances approximate ground distances.",
+    "Areas are projected grid areas; aspect is relative to grid north.",
+    "Cell relief is max minus min elevation, not detrended roughness.",
+    "5 m sampling does not resolve smaller hazards and does not imply 5 m measurement accuracy.",
+    "Slope filter is not landing safety or a complete suitability score; passing pixels may be disconnected.",
+    "Sunlight, Earth visibility, temperature, permanent shadow and ice require additional data/models."
+  ]
+}

@@ -1,0 +1,63 @@
+LDSM -> LDEM: C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\dati_regionali\LDSM_60S_240MPP_ADJ.tiff -> C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\dati_regionali\60S\LDEM_60S_240MPP_ADJ.TIF
+Orizzonte: 360 valori, da -0.726 a 4.315 gradi
+{
+  "shape": [
+    4000,
+    4000
+  ],
+  "resolution_m": [
+    5.0,
+    5.0
+  ],
+  "center": {
+    "x_m": 76000.0,
+    "y_m": 39000.0,
+    "longitude_deg": 62.83501494266807,
+    "latitude_deg": -87.18351447607763
+  },
+  "missing_elevation_pct": 0.0,
+  "elevation_m": {
+    "count": 16000000,
+    "min": -1075.152099609375,
+    "max": 713.5578002929688,
+    "mean": 160.8661936337329,
+    "std": 299.6930376223883,
+    "p5": -436.79119873046875,
+    "p50": 209.3463134765625,
+    "p95": 550.5095825195312
+  },
+  "slope_deg": {
+    "count": 15984004,
+    "min": 0.001331639476120472,
+    "max": 67.1957015991211,
+    "mean": 8.965765157163336,
+    "std": 5.636895330952315,
+    "p5": 1.915926456451416,
+    "p50": 7.769184589385986,
+    "p95": 20.714155197143555
+  },
+  "slope_filters": [
+    {
+      "max_slope_deg": 5.0,
+      "area_projected_km2": 106.958375,
+      "pct_of_valid_slope": 26.76635341182347
+    },
+    {
+      "max_slope_deg": 10.0,
+      "area_projected_km2": 262.675175,
+      "pct_of_valid_slope": 65.73451182820024
+    },
+    {
+      "max_slope_deg": 15.0,
+      "area_projected_km2": 340.365075,
+      "pct_of_valid_slope": 85.17642387977381
+    },
+    {
+      "max_slope_deg": 20.0,
+      "area_projected_km2": 376.045975,
+      "pct_of_valid_slope": 94.10557579940546
+    }
+  ]
+}
+Output: C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\risultati topografia\Sito_Shoemaker
+

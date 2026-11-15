@@ -1,0 +1,170 @@
+{
+  "frame": "MOON_ME_DE421",
+  "units": "degree",
+  "longitude_positive": "east",
+  "note": "Inserire le coordinate effettive confermate dal gruppo. Nessuna coordinata e ricavata dal centro del DEM.",
+  "sites": [
+    {
+      "site_id": "Sito_01",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_04",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_06",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "sito_07",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_11",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_20",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_20v2",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_23",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_42",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_DM1",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_DM2",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_Haworth",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM1",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM2",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM3",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM4",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM5",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM6",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM7",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_LM8",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_NPA",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_NPB",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_NPC",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_NPD",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_Shoemaker",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_SL2",
+      "lat": null,
+      "lon": null,
+      "source": null
+    },
+    {
+      "site_id": "Sito_SL3",
+      "lat": null,
+      "lon": null,
+      "source": null
+    }
+  ]
+}

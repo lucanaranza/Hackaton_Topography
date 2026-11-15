@@ -1,0 +1,63 @@
+LDSM -> LDEM: C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\dati_regionali\LDSM_60S_240MPP_ADJ.tiff -> C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\dati_regionali\60S\LDEM_60S_240MPP_ADJ.TIF
+Orizzonte: 360 valori, da -3.150 a 1.247 gradi
+{
+  "shape": [
+    3200,
+    3200
+  ],
+  "resolution_m": [
+    5.0,
+    5.0
+  ],
+  "center": {
+    "x_m": 30000.0,
+    "y_m": -20000.0,
+    "longitude_deg": 123.69006752597979,
+    "latitude_deg": -88.81100807350457
+  },
+  "missing_elevation_pct": 0.0,
+  "elevation_m": {
+    "count": 10240000,
+    "min": -418.9165344238281,
+    "max": 1648.6798095703125,
+    "mean": 800.0182985624544,
+    "std": 453.2991466531235,
+    "p5": -47.608848571777344,
+    "p50": 903.3765869140625,
+    "p95": 1437.116943359375
+  },
+  "slope_deg": {
+    "count": 10227204,
+    "min": 0.004254353232681751,
+    "max": 60.484073638916016,
+    "mean": 10.740405525374019,
+    "std": 4.698326208674203,
+    "p5": 3.2393271923065186,
+    "p50": 10.606481552124023,
+    "p95": 18.60780906677246
+  },
+  "slope_filters": [
+    {
+      "max_slope_deg": 5.0,
+      "area_projected_km2": 29.9521,
+      "pct_of_valid_slope": 11.714677833746153
+    },
+    {
+      "max_slope_deg": 10.0,
+      "area_projected_km2": 115.571075,
+      "pct_of_valid_slope": 45.20143530920083
+    },
+    {
+      "max_slope_deg": 15.0,
+      "area_projected_km2": 207.84325,
+      "pct_of_valid_slope": 81.29035071560125
+    },
+    {
+      "max_slope_deg": 20.0,
+      "area_projected_km2": 248.57605,
+      "pct_of_valid_slope": 97.22150843964782
+    }
+  ]
+}
+Output: C:\Users\cater\OneDrive\Desktop\universit�\EXTRA\Hackaton NASA\Hackaton_Topography\risultati topografia\sito_07
+

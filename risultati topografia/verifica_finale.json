@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "siti": 27,
+  "celle": 1088504,
+  "direzioni_orizzonte": 9720,
+  "copertura_campioni_200km_completa_per_tutti": true,
+  "max_errore_verifica_indipendente_gradi": 2.787103881018993e-12,
+  "siti_con_note": [
+    "Sito_20",
+    "Sito_23",
+    "Sito_Haworth"
+  ],
+  "note": [
+    {
+      "sito": "Sito_20",
+      "nota": "toterr: etichette CRS diverse, parametri numerici e griglia identici."
+    },
+    {
+      "sito": "Sito_23",
+      "nota": "toterr: etichette CRS diverse, parametri numerici e griglia identici."
+    },
+    {
+      "sito": "Sito_Haworth",
+      "nota": "LDEC contiene 0.956% di valori frazionari: non interpretare come conteggio grezzo intero. Valori originali preservati."
+    }
+  ],
+  "dem_lontano": "C:\\Users\\cater\\OneDrive\\Desktop\\università\\EXTRA\\Hackaton NASA\\Hackaton_Topography\\dati_regionali\\60S\\LDEM_60S_240MPP_ADJ.TIF",
+  "riferimento_ldsm": "C:\\Users\\cater\\OneDrive\\Desktop\\università\\EXTRA\\Hackaton NASA\\Hackaton_Topography\\dati_regionali\\LDSM_60S_240MPP_ADJ.tiff"
+}

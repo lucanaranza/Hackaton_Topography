@@ -1,0 +1,25 @@
+{
+  "url": "https://pgda.gsfc.nasa.gov/data/LOLA_20mpp/LDEM_60S_240MPP_ADJ.TIF",
+  "total_bytes": 218961039,
+  "last_modified": "Fri, 07 Jul 2023 22:04:03 GMT",
+  "block_bytes": 16777216,
+  "completed_blocks": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "sha256": "3f9663257b63022f2b0d5a623482ff3cadddceb91594a4e4ca14a94d8cec8b34",
+  "download_complete": true,
+  "elapsed_seconds": 83.25112190000073
+}

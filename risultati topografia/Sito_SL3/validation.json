@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "files": {
+    "surf": {
+      "file": "SL3_final_adj_5mpp_surf.tif",
+      "bytes": 64025611,
+      "shape": [
+        4000,
+        4000
+      ],
+      "statistics": {
+        "count": 16000000,
+        "min": -1169.755615234375,
+        "max": 1693.0941162109375,
+        "mean": 289.81280942883507,
+        "std": 694.13927848884,
+        "p5": -890.7520751953125,
+        "p50": 298.6789245605469,
+        "p95": 1373.2066650390625
+      },
+      "missing_pct": 0.0,
+      "crs_labels_identical": true
+    },
+    "slp": {
+      "file": "SL3_final_adj_5mpp_slp.tif",
+      "bytes": 64025577,
+      "shape": [
+        4000,
+        4000
+      ],
+      "statistics": {
+        "count": 16000000,
+        "min": 0.0,
+        "max": 68.19094848632812,
+        "mean": 14.695232084682104,
+        "std": 5.859355450201549,
+        "p5": 5.130531311035156,
+        "p50": 14.585506439208984,
+        "p95": 24.20484161376953
+      },
+      "missing_pct": 0.0,
+      "crs_labels_identical": true
+    },
+    "toterr": {
+      "file": "SL3_final_adj_5mpp_toterr.tif",
+      "bytes": 64025613,
+      "shape": [
+        4000,
+        4000
+      ],
+      "statistics": {
+        "count": 16000000,
+        "min": 0.06170782446861267,
+        "max": 7.833871841430664,
+        "mean": 0.45358740856046464,
+        "std": 0.20546920108704042,
+        "p5": 0.20410212874412537,
+        "p50": 0.41462552547454834,
+        "p95": 0.8316630125045776
+      },
+      "missing_pct": 0.0,
+      "crs_labels_identical": true
+    },
+    "ldec": {
+      "file": "SL3_final_adj_5mpp_ldec.tif",
+      "bytes": 64025545,
+      "shape": [
+        4000,
+        4000
+      ],
+      "statistics": {
+        "count": 16000000,
+        "min": 0.0,
+        "max": 4.0,
+        "mean": 0.0594835,
+        "std": 0.24418504914869377,
+        "p5": 0.0,
+        "p50": 0.0,
+        "p95": 1.0
+      },
+      "missing_pct": 0.0,
+      "crs_labels_identical": true,
+      "zero_count_pct_of_valid": 94.2316375,
+      "fractional_values_pct": 0.0
+    }
+  },
+  "warnings": [],
+  "checks": [
+    "Quattro raster leggibili; griglie e parametri CRS numericamente identici",
+    "Pendenze in [0,90], incertezze e LDEC non negativi; eventuali frazioni LDEC segnalate",
+    "360 angoli finiti e coordinate coerenti",
+    "Otto azimut fino al raggio regionale confermati da bilineare indipendente",
+    "Conteggio delle celle CSV verificato"
+  ],
+  "slope_comparison": {
+    "sampling": "un pixel ogni 4 righe e 4 colonne; gradienti calcolati sui vicini originali",
+    "sample_count": 1000000,
+    "mean_absolute_difference_deg": 9.770912547282455e-05,
+    "max_absolute_difference_deg": 0.009805799706695751
+  },
+  "independent_horizon_max_difference_deg": 6.927791673660977e-14,
+  "cell_count": 40000,
+  "regional_coverage": {
+    "dem": "C:\\Users\\cater\\OneDrive\\Desktop\\università\\EXTRA\\Hackaton NASA\\Hackaton_Topography\\dati_regionali\\60S\\LDEM_60S_240MPP_ADJ.TIF",
+    "distance_m": 200000,
+    "complete": true,
+    "sample_counts": {
+      "vicino": 719988,
+      "lontano": 684012
+    }
+  }
+}
