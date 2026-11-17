@@ -16,12 +16,17 @@ from script import statistics
 from dem_products import resolve_dem_path
 from site_coordinates import preflight, describe_site
 
+"""BASE OUTPUT FOLDER"""
 BASE = Path(__file__).resolve().parent.parent
 OUT = BASE/'risultati topografia'
+
+"""REGIONAL DEM DATA SPECIFIC FILE"""
 FAR_REFERENCE = BASE/'dati_regionali/LDSM_60S_240MPP_ADJ.tiff'
 FAR_DEM = None
 FALLBACK_DEMS = []
 MAX_DISTANCE = 200000.0
+
+"""COORDINATES FOR CENTERS - NOT USED"""
 SITE_CATALOG = BASE/'config/site_coordinates.json'
 SITE_CATALOG_HASH = None
 
@@ -32,12 +37,14 @@ def save(path, value):
 
 def sample_bilinear(source, lons, lats):
     """Campionamento indipendente da scipy, sui quattro centri pixel."""
+
     converter = Transformer.from_crs(LUNAR_CRS,source.crs,always_xy=True)
     x,y = converter.transform(lons,lats)
     inv = ~source.transform
     col = inv.a*np.asarray(x)+inv.b*np.asarray(y)+inv.c-.5
     row = inv.d*np.asarray(x)+inv.e*np.asarray(y)+inv.f-.5
     result = np.full(row.shape,np.nan)
+    
     ok=(row>=0)&(col>=0)&(row<source.height-1)&(col<source.width-1)
     if not ok.any():return result
     r,c=row[ok],col[ok]
